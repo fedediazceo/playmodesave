@@ -1,6 +1,6 @@
 {
   "name": "com.fedediaz.applyplaymodevalues",
-  "version": "0.1.0",
+  "version": "0.1.1-preview.1",
   "displayName": "ApplyPlayModeValues",
   "description": "Capture a component's values while in Play Mode and apply them back automatically when you exit Play Mode. Works on any component (Transform, Rigidbody, your own scripts) straight from the component's gear menu.",
   "unity": "2021.3",
