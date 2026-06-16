@@ -14,7 +14,7 @@ your own `MonoBehaviour` scripts, etc.
 In Unity: **Window → Package Manager → + → Add package from git URL…** and paste:
 
 ```
-https://github.com/fedediazceo/playmodesave.git
+https://github.com/fedediazceo/playmodesave.git#v0.1.0
 ```
 
 Or add it directly to `Packages/manifest.json`:
@@ -22,7 +22,7 @@ Or add it directly to `Packages/manifest.json`:
 ```json
 {
   "dependencies": {
-    "com.fedediaz.applyplaymodevalues": "https://github.com/fedediazceo/playmodesave.git"
+    "com.fedediaz.applyplaymodevalues": "https://github.com/fedediazceo/playmodesave.git#v0.1.0"
   }
 }
 ```
