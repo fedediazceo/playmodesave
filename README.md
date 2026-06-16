@@ -35,6 +35,8 @@ Or add it directly to `Packages/manifest.json`:
 4. Right-click the component header (or use the ⋮ menu) → **Apply Play Mode Values**.
 5. Exit Play Mode — the captured values are applied and can be undone with Ctrl+Z.
 
+<img width="1272" height="937" alt="SavePlayMode" src="https://github.com/user-attachments/assets/7415006a-0c2e-44c1-8489-800517e5da5b" />
+
 ## Notes & limitations
 
 - The menu entry is disabled outside Play Mode and on unsaved scenes.
