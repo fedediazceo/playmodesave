@@ -12,9 +12,12 @@ your own `MonoBehaviour` scripts, etc.
 ## Install (Git URL)
 
 In Unity: **Window → Package Manager → + → Add package from git URL…** and paste:
+(Use this version, it's the preview one, but it's ok)
+
+**NOTE**: If you have a compile error, please, PLEASE read the note about the cool save button
 
 ```
-https://github.com/fedediazceo/playmodesave.git#v0.1.0
+https://github.com/fedediazceo/playmodesave.git#v0.1.1-preview.1
 ```
 
 Or add it directly to `Packages/manifest.json`:
@@ -22,7 +25,7 @@ Or add it directly to `Packages/manifest.json`:
 ```json
 {
   "dependencies": {
-    "com.fedediaz.applyplaymodevalues": "https://github.com/fedediazceo/playmodesave.git#v0.1.0"
+    "com.fedediaz.applyplaymodevalues": "https://github.com/fedediazceo/playmodesave.git#v0.1.1-preview.1"
   }
 }
 ```
@@ -37,7 +40,9 @@ Or add it directly to `Packages/manifest.json`:
 
 <img width="1272" height="937" alt="SavePlayMode" src="https://github.com/user-attachments/assets/7415006a-0c2e-44c1-8489-800517e5da5b" />
 
-## Optional: header button
+## Optional: the much cooler header button
+
+<img width="305" height="74" alt="image" src="https://github.com/user-attachments/assets/405078f5-c730-41fb-b9e6-3a3fc1028922" />
 
 In addition to the context-menu entry, the package adds a small **save icon to the
 component header**, next to the preset/help buttons, that does the same capture.
