@@ -37,6 +37,22 @@ Or add it directly to `Packages/manifest.json`:
 
 <img width="1272" height="937" alt="SavePlayMode" src="https://github.com/user-attachments/assets/7415006a-0c2e-44c1-8489-800517e5da5b" />
 
+## Optional: header button
+
+In addition to the context-menu entry, the package adds a small **save icon to the
+component header**, next to the preset/help buttons, that does the same capture.
+
+This part relies on an **internal** Unity attribute (`EditorHeaderItem`) that is only
+reachable from an assembly named `Unity.InternalAPIEditorBridge.NNN`. Those `NNN`
+slots are a shared, finite pool (`001`–`025`) and other packages claim them too, so
+a collision is possible.
+
+- **If you hit a "duplicate assembly name" compile error**, open
+  `Editor/HeaderItem/Unity.InternalAPIEditorBridge.024.asmdef` and change `024` to
+  another free number. That's the only change needed.
+- **If you don't want the header button at all**, delete the
+  `Editor/HeaderItem/` folder. The context-menu entry keeps working without it.
+
 ## Notes & limitations
 
 - The menu entry is disabled outside Play Mode and on unsaved scenes.
